@@ -23,11 +23,13 @@
 
 \pagenumbering{arabic}
 
+\section{Axioma de Incidência e de Ordem}
+
 \noindent{\Large \bf I. Axioma de Incidência}
 
-\emph{I$_{1}$}: Existem pontos que pertencem ou não a reta;
+\emph{Axioma I$_{1}$}: Existem pontos que pertencem ou não a reta;
 
-\emph{I$_{2}$}: Dados dois pontos existe uma única reta que os contém;
+\emph{Axioma I$_{2}$}: Dados dois pontos existe uma única reta que os contém;
 
 \emph{Proposição 1.1}: Duas retas distintas ou não se interceptam num único
 ponto.
@@ -36,13 +38,9 @@ ponto.
   Intersecção de reta: ou é um único ponto ou é vazio
 \end{quote}
 
-Pontos: $A$, $B$, $C$, \ldots
-
-Retas: $a$, $b$, $c$, \ldots
-
 \noindent{\Large \bf II. Axioma de Ordem}
 
-\emph{II$_{1}$}. Dados 3 pontos distintos de uma reta um e apenas um deles
+\emph{Axioma II$_{1}$}. Dados 3 pontos distintos de uma reta um e apenas um deles
 localiza-se entre os outros dois.
 
 \emph{Definição 1.2} O conjunto constituído por dois pontos $A$ e $B$ e por
@@ -63,7 +61,7 @@ $B$ temos:
 \item $S_{AB} \cap S_{AB} = AB$.
 \end{enumerate}
 
-\emph{II$_{2}$} Dados dois pontos distintos $A$ e $B$ sempre existem um ponto $C$
+\emph{Axioma II$_{2}$} Dados dois pontos distintos $A$ e $B$ sempre existem um ponto $C$
 entre $A$ e $B$ e um ponto $D$ tal que $B$ está entre $A$ e $D$.
 
 \begin{quote}
@@ -75,24 +73,89 @@ $m$. O conjunto constituído pelos pontos de $m$ e por todos os pontos $B$ tais
 que $A$ e $B$ estão num mesmo lado da reta $m$ é chamado de semiplano
 determinado por $m$ contendo $A$, representado por $P_{mA}$.
 
-\emph{II$_{3}$} Uma reta $m$ determina exatamente dois semiplanos distintos
+\emph{Aximoma II$_{3}$} Uma reta $m$ determina exatamente dois semiplanos distintos
 cuja interseção é a reta $m$.
 
 \line(1,0){470}
 
 \begin{description}
-\item[Segmento de reta]
-Dados dois pontos distintos $A$ e $B$ numa reta $r$, o conjunto de todos os
-pontos de $r$, entre $A$ e $B$ é dito segmento de reta. Exemplo: $AB$.
+  \item[Ponto] $A$, $B$, $C$, \ldots
 
-\item[Semi-reta]
-Dados uma reta $r$ e um ponto $P$ sobre $r$, cada uma das partes de $r$,
-constituídas pelo ponto $P$ e todos os outros pontos de $r$ que estão de um
-mesmo lado do ponto $O$, é dita semireta. Exemplo: $S_{AB}$.
+  \item[Reta] $a$, $b$, $c$, \ldots
 
-\item[Semiplano]
-Uma reta $r$ num plano $\alpha$ , divide o plano em duas partes, cuja
-interseção é $r$. Cada uma dessas partes é dita semiplano.
+  \item[Segmento de reta]
+  Dados dois pontos distintos $A$ e $B$ numa reta $r$, o conjunto de todos os
+  pontos de $r$, entre $A$ e $B$ é dito segmento de reta. Exemplo: $AB$.
+
+  \item[Semi-reta]
+  Dados uma reta $r$ e um ponto $P$ sobre $r$, cada uma das partes de $r$,
+  constituídas pelo ponto $P$ e todos os outros pontos de $r$ que estão de um
+  mesmo lado do ponto $O$, é dita semireta. Exemplo: $S_{AB}$.
+
+  \item[Semiplano]
+  Uma reta $r$ num plano $\alpha$ , divide o plano em duas partes, cuja
+  interseção é $r$. Cada uma dessas partes é dita semiplano.
 \end{description}
+
+\section{Axiomas Sobre Medição de Segmentos}
+
+\emph{Aximoma III$_{1}$} Todo par de pontos do plano corresponde um
+número\footnote{Coordenada} maior ou igual a zero. Zero se os pontos forem
+coincidentes.
+
+\emph{Aximoma III$_{2}$} Os pontos de uma reta podem ser colocados em
+correspondência biunívoca com os números reais, de modo que a diferença entre
+estes números meça a distância entre os pontos correspondentes. \emph{Régua
+infinita}.
+
+\emph{Aximoma III$_{3}$} Se o ponto $C$ encontra-se entre $A$ e $B$ então:
+$\overline{AC} + \overline{CB} = \overline{AB}$.
+
+\emph{Proposição 2.1} Se, numa semi-reta $S_{AB}$, considerarmos um segmento
+$AC$ com $\overline{AC} < \overline{AB}$, então o ponto $C$ estará entre $A$ e
+$B$.
+
+\emph{Definição 2.3} Ponto médio do segmento $AB$ a um ponto $C$ deste segmento
+tal que $\overline{AC} = \overline{CB}$.
+
+\emph{Teorema 2.4} Um segmento tem exatamente um ponto médio.
+
+\section{Axiomas sobre Medição de Ângulos}
+
+\emph{Definição 3.1} Ângulo: figura formada por duas semi-retas com mesma
+origem.
+
+\emph{Axioma III$_{4}$} Todo ângulo tem uma medida maior ou igual a zero. A
+medida de um ângulo é zero se e somente se ele é constituiído por duas
+semi-retas coincidentes.
+
+\emph{Definição 3.2} Diremos que uma semi-reta divide um semi-plano se ela
+estiver contida no semi-plano e sua origem for um ponto da reta que o
+determina.
+
+\emph{Axioma III$_{5}$} É possível colocar (correspondência
+biunívoca)$^1$ os números reais entre zero e 180 e as
+semi-retas da mesma origem que dividem um dado semi-plano, de modo que a
+diferença entre estes números seja a medida do ângulo formado pelas semi-retas
+correspondentes.
+
+\emph{Axioma III$_6$} Se uma semi-reta $S_{OC}$ divide um ângulo $A\hat{O}B$,
+então $A\hat{O}B = A\hat{O}C + C\hat{O}B$
+
+\line(1,0){470}
+
+\begin{description}
+  \item[Ângulo] Notação: $C\hat{A}B$, $\alpha$, $\hat{A}$.
+  \item[Ângulo raso] igual a $180º$.
+  \item[Ângulo reto] igual a $90º$.
+  \item[Ângulos suplementares] adjacentes com soma $180º$.
+  \item[Ângulos opostos pelo vértice (OPV)] são iguais.
+\end{description}
+
+\section{Congruência}
+
+\emph{Definição 4.1} Dois segmentos $AB$ e $CD$ são congruentes quando
+$\overline{AB} = \overline{CD}$; dois ângulos $\hat{A}$ e $\hat{B}$ congruentes
+se têm a mesma medida.
 
 \end{document}
