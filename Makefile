@@ -1,4 +1,4 @@
-FILE = resumo
+FILE = resumo-geometria-euclidiana
 
 all :
 	pdflatex $(FILE).tex
